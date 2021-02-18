@@ -6,7 +6,7 @@ The capitalistic advertising composes almost the entire internet and sucks every
 
 ### Capitalistic advertising encourages false rumors
 
-Clickbaits, or 标题党 in Chinese, is the unique phenomenon of capitalistic advertising. Because the writers of clickbaits will be instantly rewarded after the users have clicked their articles, they don't care what they have written or whether the content is true or not. The internet is anonymous and lacks trust, so they won't be regulated or punished even if they have done something immoral. Moreover, internet can't be completely regulated, for the ineffectiveness of governments and the complexity of it. It is not realistic to expect the regulators to make the whole capitalistic advertising system better. The rumors are mostly the results of it, and the starters of these rumors are rarely found because of te anonymity.
+Clickbait is the unique phenomenon of capitalistic advertising. Because the writers of clickbaits will be instantly rewarded after the users have clicked their articles, they don't care what they have written or whether the content is true or not. The internet is anonymous and lacks trust, so they won't be regulated or punished even if they have done something immoral. Moreover, internet can't be completely regulated, for the ineffectiveness of governments and the complexity of it. It is not realistic to expect the regulators to make the whole capitalistic advertising system better. The rumors are mostly the results of it, and the starters of these rumors are rarely found because of te anonymity.
 
 ### It disrepects innovation
 

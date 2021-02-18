@@ -42,3 +42,34 @@ To some specific peer
   - Seeders
 
 ![](./enc.drawio.svg)
+
+## To design
+
+The common issues of internet, and its dweb solution
+
+- Data reuse, deduplication
+  - IPLD
+- Archival
+  - Immutability of IPLD
+  - Object archival
+- Convenience, unification, security
+  - Site runtime
+- Hyperlink, and beyond it
+  - Semantic links
+- Code reuse
+  - Inter-site reuse, component, template, etc.
+  - IPLD (as the way of reusing the code itself)
+- Simplicity (of the network itself and the development of applications)
+  - IPLD as an alternative to filesystem
+  - Less repeating concepts
+
+## Archive
+
+The space and bandwidth of each peer is limited ⇒Archive to save space and bandwidth for the new versions
+
+The bandwidth is saved and the speed of fetching new versions is raised only when the majority have stopped seeding the older versions, and the new version is preferred by the majority ⇒Archival must be done after negotiation at the same time
+
+Archival ⇏ Saving space or bandwidth
+
+- solid compression
+
