@@ -1,3 +1,12 @@
+---
+title: Problems with blockchain and WoT
+date: 2021-02-20 14:32:04
+tags:
+    - trust
+    - blockchain
+---
+
+
 # The inherent centralization of blockchain
 
 > Sybil attack: basically, the attack that tries to break a reputation system with fake identities.

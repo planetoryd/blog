@@ -1,4 +1,9 @@
-# Next steps of dweb-revolution
+---
+title: Next steps of dweb-revolution
+date: 2021-02-20 14:32:04
+tags:
+    - dweb
+---
 
 A top-down reform by capitalists only kills dweb, since average users will have no motivation of turning to it. This is actually happening, Microsoft are trying to accept open-source, Google, Youtube are constantly improving their promotion algorithm, and even the corporations behind WeChat in China have started to realize the problem and change their strategy of business. Therefore, a revolution before them is necessary.
 

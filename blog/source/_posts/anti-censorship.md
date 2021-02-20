@@ -1,3 +1,11 @@
+---
+title: Strategies of dealing with censorship
+date: 2021-02-20 14:32:04
+tags:
+    - censorship
+---
+
+
 # The purpose of opposing censorship
 
 For me, the purpose is to give an opportunity for our project, or many of the users will not be able to use it. In western values, it is about their free speech, and in socialist values it is encouraged but not seriously implemented. The purpose here is about neither of them. Opposing censorship is merely to create the possibility of practising an ideal freedom of speech, the word 'possibility' among which is to say we shall at least have the ability to get free speech which is the prerequisite of all other things. We should create it first before thinking or criticizing free speech. Anyway, you can't criticize such dweb free speech before it actually appears. From another perspective, decentralized networks are just too hard to ban after they have been created, so it makes no actual sense to oppose it.

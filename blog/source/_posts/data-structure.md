@@ -1,3 +1,11 @@
+---
+title: Some data structures of dweb
+date: 2021-02-20 14:32:04
+tags:
+    - dweb
+---
+
+
 # Structuring and linking the web
 
 Traditional internet are often scattered although weakly connected with hyperlinks, which leads to the presence of web crawlers. The sites intend to fight with crawlers, for some reason, but most of the sites shouldn't have the need to protect their content. The reality turns out that crawlers are still wasting energy to get content from some site. They should have exposed part of their database to the public to avoid the non-sense of developing spiders, which is not possible of course. In The Network, we don't even have database, which is called **No-database**. All the data are organized and stored locally, so there won't be any need of spiders, and the protection of content will be infeasible. This is first barrier removed. No-database means we have our own data structure based on IPLD, which doesn't turn to a conventional database, but uses the fittest solution for dweb and its new requirements. Why using the spiders as an example ? People want information, and it tend to be exchanged, so the structure without the struggle of getting information is most efficient.

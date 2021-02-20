@@ -1,6 +1,11 @@
-> simple intro written for some of my readers
+---
+title: Dweb in a nutshell
+date: 2021-02-20 14:32:04
+tags:
+    - dweb
+---
 
-# Dweb in a nutshell
+> simple intro written for some of my readers
 
 > Dweb is a proper noun that means 'decentralized web'.
 

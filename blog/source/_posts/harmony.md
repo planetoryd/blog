@@ -1,4 +1,9 @@
-# Harmony of dweb
+---
+title: Harmony of dweb
+date: 2021-02-20 14:32:04
+tags:
+    - dweb
+---
 
 We haven't associated 'harmony' with centralized web for a long time, and this is right, for there are various forms of spyware, malware and viruses. One of decentralized networks, ZeroNet, is named so probably because it aimed to start from zero where the centralized originates as well. Though it was indeed undeveloped, the developers and users supported the network and funded the project. The author of the network does have received much funds, but the developers of other sites didn't. It is all about contribution and gratitude. The discussion sites on it don't need much maintenance since the users generally appreciate the network, while the moderators of centralized sites are getting exhausted clearing the spammers. When you are trying to get some software, the malwares are downloaded unexpectedly. Then, *how is the centralized web harmonious ? Is it natural to be like this, and even no one has questioned it ?* The reason behind is that the centralized web lacks trust, even though everyone isn't necessarily anonymous and is constantly being monitored by internet monoplies. They can't trust each other as well, for everything is actually done by the platforms, so the users can only trust platforms which are not trustworthy at all. Does harmony really matter ? It seems harmony is only the relationships between users, and we can just go head and use AI to filter out spammers which does work to some extent. It is about the development of internet, however. **Opensource develops because of harmony**, and today it has achieved many great projects. Harmony isn't simply about the spamming. 
 

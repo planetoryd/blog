@@ -1,3 +1,10 @@
+---
+title: The advertising of the current web
+date: 2021-02-20 14:32:04
+tags:
+    - advertising
+---
+
 # Advertising
 
 > Capitalistic advertising: the means of communication are owned by capitalists, who then started such advertising economy, which is utterly different from the positive way of advertising that will happen in the dweb.

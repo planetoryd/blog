@@ -1,6 +1,13 @@
+---
+title: Archived melotte protocol specs
+date: 2021-02-20 14:32:04
+tags:
+    - dweb
+---
+
 # Melotte Protocol
 
-> ARCHIVED
+> ARCHIVED for reference
 
 Melotte is a decentralized application platform and framework, based on libp2p. In contrast to recent novel decentralized networks, Melotte focuses on the original purpose of P2P, to bring privacy and anonymity.
 
