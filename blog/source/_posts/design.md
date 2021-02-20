@@ -11,13 +11,13 @@ tags:
 
 > 2021
 
-![](./protocol.drawio.svg)
+![](/images/protocol.drawio.svg)
 
 The diagram shows the general evolution of related projects.
 
 ## Arch
 
-![](./arch.drawio.svg)
+![](/images/arch.drawio.svg)
 
 ## Protocols present
 
@@ -26,17 +26,17 @@ The diagram shows the general evolution of related projects.
 - Gossip
   - Not suitable for large amounts of data
 
-![](./proto.drawio.svg)
+![](/images/proto.drawio.svg)
 
 (An object can't exist without a site)
 
 ## Site
 
-![](./s.drawio.svg)
+![](/images/s.drawio.svg)
 
 ## Object
 
-![](./obj.drawio.svg)
+![](/images/obj.drawio.svg)
 
 ## Encoding
 
@@ -50,7 +50,7 @@ To some specific peer
   - Size
   - Seeders
 
-![](./enc.drawio.svg)
+![](/images/enc.drawio.svg)
 
 ## To design
 

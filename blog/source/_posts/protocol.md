@@ -123,7 +123,7 @@ Packed payload is served for peers visiting it as a new site. Both packed payloa
 
 #### Optimization: DHT
 
-![](./net.drawio.svg)
+![](/images/net.drawio.svg)
 
 As shown in the graph, a site usually has only a subgraph of nodes, while all nodes in IPFS support DHT. Obviously, the more nodes, the more censorship-resistance. For all data, including management chain and user data, it's possible to use DHT for update resolution, not publishing. Management chain is resolved recursively by all known pulickeys. An object might have multiple intended branches. If there are multiple users working on that object, the pubkey should resolve to a branch that hasn't been mapped to any pubkey. An abitrary branch is chosen if one user has multiple branches. The shortcoming of DHT is that it can only map a publickey to one CID (Actually PeerId in IPFS's implementation), and it can't check whether the mapping is valid according the site defined rules. Hence channel update resolution will be performed soon after that.
 
@@ -336,7 +336,7 @@ The hierarchy looks like this
 
 > Don't confuse melotte block/object and ipfs block/object.
 
-![](./dag.drawio.svg)
+![](/images/dag.drawio.svg)
 
 You can also treat each folder as an object. That depends on your need. The benefit of tracking files individually is that you can have different permission settings for each file. If the whole folder is treated as an object, any modification to any file inside produces a new version. In this case, to set different permissions, the site has to do version control manually.
 
@@ -368,7 +368,7 @@ Case two, creating a new d-stackexchange. There are many ways to do this, copyin
 Management chain is the core of a site. It determines what data is allowed and not allowed for that regarding a specific user, and what new blocks are accepted for the chain itself, etc. Each succeeding block is verified by its predecessor.
 
 To turn a single-owner site into a multi-owner site:
-![](./mgmtm.drawio.svg)
+![](/images/mgmtm.drawio.svg)
 
 This is how multi-owner site is done in melotte. Owners in a site are equal.
 
@@ -407,7 +407,7 @@ This concept is proposed for it's a common requirement in sites. When we say `ar
 
 A random example of how complicated the relationship among blocks can be
 
-![](./archive.drawio.svg)
+![](/images/archive.drawio.svg)
 
 One of the concerns is when you archive something, there can be side effects. For instance, assuming you are going to archive a base, to make the base itself no longer a requirement of any other blocks, you have to traverse through the merkle forest, because a base doesn't have links to its dependencies. You may propose to create reverse links when receiving data, but the choice of archiving bases is wrong in the first place. Now think about a base can be anything that other things depend on, not only a concept only of delta-encoding. So, we don't archive the dependents, but the dependencies of some data.
 
@@ -487,7 +487,7 @@ We mainly use weak trust, since it is rare to get strong trust data. Following e
 
 DHT distributes the records of blocks equally among all peers, including those untrusted peers. In WoT, the peers trusting some other peer are more likely to have his objects. Trusting means the peer has at least interacted with another peer, such as downloading that peer's user data on a site. To any peer in the WoT, it should have some objects of the nodes directly and indirectly trusted. The probability incrases for nearer peers, so we traverse the graph from the closest peer. WoT routing is identity-based, and DHT is content-based, but WoT routing only works within the subjective WoT, which doesn't scale.
 
-![](./wot.drawio.svg)
+![](/images/wot.drawio.svg)
 
 The blue circle represents the nodes that trust or being trusted by the node, which is the limited field of view of a single node in the network, since a peer can only store a limited amount of WoT records.
 
@@ -514,7 +514,7 @@ Traditional F2F protocols are limited to a few peers, as new peers are not welco
 
 We trust differently for different purposes here, which is not followed by those F2F networks in the past. For example, the distrust against someone by some other one's preference shouldn't be interpreted that the person's content is spam. On the bottommost layer, we have the largest WoT, which consists of all peers willing to share data. On the higher layer, we get the WoT for applications.
 
-![](./wot2.drawio.svg)
+![](/images/wot2.drawio.svg)
 
 The people interested in some topic are likely to trust other people having the same preference. The peers willing to share files only trust other such peers. The trust generated from agreement or transport should be treated separatedly. If these two are not distinguished, it will be harder to get the right WoT for either application or transport. The peers trusted by the tranpsort protocol don't necessarily share a common interest with you, which lowers the efficacy of WoT. Adding the two trust values together is not feasible either. The set of peers with transport trust are not a subset or superset of the application trust. Similarly, we also separate the trust for some peer not being spammer (weak trust) and the trust for someone with a common interest (strong trust). However, the relation between the two sets is subset, so we don't really use two fields for this.
 
