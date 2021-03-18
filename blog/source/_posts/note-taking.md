@@ -2,6 +2,7 @@
 title: 对于做笔记方式的思考
 date: 2021-02-20 14:32:04
 tags:
+    - draft
     - dweb
 ---
 

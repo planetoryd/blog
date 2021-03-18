@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://planetoryd.github.io/2021/03/18/%E6%B5%81%E9%87%8F%E7%BB%8F%E6%B5%8E%E4%B9%8B%E6%B1%82%E7%94%9F%E6%8C%87%E5%8D%97/</loc>
+    
+    <lastmod>2021-03-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://planetoryd.github.io/2021/02/20/introduction/</loc>
+    
+    <lastmod>2021-03-18</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://planetoryd.github.io/2021/02/20/random/</loc>
     
     <lastmod>2021-03-18</lastmod>
@@ -11,77 +25,70 @@
   <url>
     <loc>https://planetoryd.github.io/2021/03/16/%E6%B5%81%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%8F%8A%E5%85%B6%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%EF%BC%9A%E4%B8%AD%E6%96%87%E7%AE%80%E4%BB%8B/</loc>
     
-    <lastmod>2021-03-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://planetoryd.github.io/2021/02/20/blockchain-and-wot/</loc>
-    
-    <lastmod>2021-02-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://planetoryd.github.io/2021/02/19/protocol/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://planetoryd.github.io/2021/02/20/introduction/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://planetoryd.github.io/2021/02/20/harmony/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://planetoryd.github.io/2021/02/20/design/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://planetoryd.github.io/2021/02/20/data-structure/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://planetoryd.github.io/2021/02/20/anti-censorship/</loc>
-    
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-03-18</lastmod>
     
   </url>
   
   <url>
     <loc>https://planetoryd.github.io/2021/02/20/advertising/</loc>
     
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-03-18</lastmod>
     
   </url>
   
   <url>
-    <loc>https://planetoryd.github.io/2021/02/20/note-taking/</loc>
+    <loc>https://planetoryd.github.io/2021/02/20/anti-censorship/</loc>
     
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-03-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://planetoryd.github.io/2021/02/20/blockchain-and-wot/</loc>
+    
+    <lastmod>2021-03-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://planetoryd.github.io/2021/02/20/data-structure/</loc>
+    
+    <lastmod>2021-03-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://planetoryd.github.io/2021/02/20/design/</loc>
+    
+    <lastmod>2021-03-18</lastmod>
     
   </url>
   
   <url>
     <loc>https://planetoryd.github.io/2021/02/20/dweb-business/</loc>
     
-    <lastmod>2021-02-20</lastmod>
+    <lastmod>2021-03-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://planetoryd.github.io/2021/02/20/harmony/</loc>
+    
+    <lastmod>2021-03-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://planetoryd.github.io/2021/02/20/note-taking/</loc>
+    
+    <lastmod>2021-03-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://planetoryd.github.io/2021/02/19/protocol/</loc>
+    
+    <lastmod>2021-03-18</lastmod>
     
   </url>
   
@@ -180,6 +187,27 @@
   
   <url>
     <loc>https://planetoryd.github.io/tags/china/</loc>
+    <lastmod>2021-03-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://planetoryd.github.io/tags/final/</loc>
+    <lastmod>2021-03-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://planetoryd.github.io/tags/draft/</loc>
+    <lastmod>2021-03-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://planetoryd.github.io/tags/archived/</loc>
     <lastmod>2021-03-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

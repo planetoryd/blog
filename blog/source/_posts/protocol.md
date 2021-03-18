@@ -2,6 +2,7 @@
 title: Archived melotte protocol specs
 date: 2021-02-19 14:32:00
 tags:
+    - archived
     - dweb
 ---
 

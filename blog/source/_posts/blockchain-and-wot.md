@@ -2,6 +2,7 @@
 title: Problems with blockchain and WoT
 date: 2021-02-20 14:32:04
 tags:
+    - draft
     - trust
     - blockchain
 ---
