@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  <!-- Color theme for statusbar -->
+  <meta name="theme-color" content="#000000" />
+  <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  <title>Dweb in a nutshell | Planetoryd</title>
+  <meta name="description" content="simple intro written for some of my readers   Dweb is a proper noun that means ‘decentralized web’.  The current internet structure is centralized, which means the corporations run computing centers">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Dweb in a nutshell">
+<meta property="og:url" content="https://planetoryd.github.io/2021/02/20/introduction/index.html">
+<meta property="og:site_name" content="planetoryd">
+<meta property="og:description" content="simple intro written for some of my readers   Dweb is a proper noun that means ‘decentralized web’.  The current internet structure is centralized, which means the corporations run computing centers">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://planetoryd.github.io/images/centr.drawio.svg">
+<meta property="og:image" content="https://planetoryd.github.io/images/decentr.drawio.svg">
+<meta property="og:image" content="https://planetoryd.github.io/images/dwebtype.drawio.svg">
+<meta property="og:image" content="https://planetoryd.github.io/images/fc.drawio.svg">
+<meta property="article:published_time" content="2021-02-20T06:32:04.000Z">
+<meta property="article:modified_time" content="2021-02-20T07:15:29.238Z">
+<meta property="article:author" content="Planetoryd">
+<meta property="article:tag" content="dweb">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://planetoryd.github.io/images/centr.drawio.svg">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://planetoryd.github.io/2021/02/20/introduction/index.html">
+  
+    <link rel="alternate" href="/atom.xml" title="planetoryd" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+  
+  
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+
+<body class="main-center" itemscope itemtype="http://schema.org/WebPage">
+  <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="slimContent">
+    <div class="navbar-header">
+      
+      
+      <div class="profile-block text-center">
+        <a id="avatar" href="https://github.com/planetoryd" target="_blank">
+          <img class="img-circle img-rotate" src="/images/avatar.png" width="200" height="200">
+        </a>
+        <h2 id="name" class="hidden-xs hidden-sm">Planetoryd</h2>
+        <h3 id="title" class="hidden-xs hidden-sm hidden-md">Dweb developer</h3>
+        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Shanghai, China</small>
+      </div>
+      
+      <div class="search" id="search-form-wrap">
+
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i class="icon icon-search"></i></button>
+            </span>
+        </div>
+    </form>
+    <div class="ins-search">
+  <div class="ins-search-mask"></div>
+  <div class="ins-search-container">
+    <div class="ins-input-wrapper">
+      <input type="text" class="ins-search-input" placeholder="Type something..." x-webkit-speech />
+      <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    </div>
+    <div class="ins-section-wrapper">
+      <div class="ins-section-container"></div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+      <ul class="nav navbar-nav main-nav ">
+        
+        
+        <li class="menu-item menu-item-home">
+          <a href="/.">
+            
+            <i class="icon icon-home-fill"></i>
+            
+            <span class="menu-title">Home</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives">
+            
+            <i class="icon icon-archives-fill"></i>
+            
+            <span class="menu-title">Archives</span>
+          </a>
+        </li>
+        
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags">
+            
+            <i class="icon icon-tags"></i>
+            
+            <span class="menu-title">Tags</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/planetoryd" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
+        
+    </ul>
+
+    </nav>
+  </div>
+</header>
+
+  
+    <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">Board</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content">
+                <p>Contact me at <a target="_blank" rel="noopener" href="https://app.element.io/#/user/@planetoryd:matrix.org">@planetoryd:matrix.org</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+      
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget-body">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/advertising/" rel="tag">advertising</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/blockchain/" rel="tag">blockchain</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/censorship/" rel="tag">censorship</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/china/" rel="tag">china</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/diagram/" rel="tag">diagram</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dweb/" rel="tag">dweb</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/trust/" rel="tag">trust</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget-body tagcloud">
+      <a href="/tags/advertising/" style="font-size: 13.5px;">advertising</a> <a href="/tags/blockchain/" style="font-size: 13px;">blockchain</a> <a href="/tags/censorship/" style="font-size: 13px;">censorship</a> <a href="/tags/china/" style="font-size: 13px;">china</a> <a href="/tags/diagram/" style="font-size: 13px;">diagram</a> <a href="/tags/dweb/" style="font-size: 14px;">dweb</a> <a href="/tags/trust/" style="font-size: 13px;">trust</a>
+    </div>
+  </div>
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">Archive</h3>
+    <div class="widget-body">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/03/">March 2021</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/02/">February 2021</a><span class="archive-list-count">11</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+      <ul class="recent-post-list list-unstyled no-thumbnail">
+        
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2021/03/16/%E6%B5%81%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%8F%8A%E5%85%B6%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%EF%BC%9A%E4%B8%AD%E6%96%87%E7%AE%80%E4%BB%8B/" class="title">流量经济及其解决方案：中文简介</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2021-03-16T09:52:52.000Z" itemprop="datePublished">2021-03-16</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2021/02/20/advertising/" class="title">The advertising of the current web</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2021-02-20T06:32:04.000Z" itemprop="datePublished">2021-02-20</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2021/02/20/anti-censorship/" class="title">Strategies of dealing with censorship</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2021-02-20T06:32:04.000Z" itemprop="datePublished">2021-02-20</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2021/02/20/data-structure/" class="title">Some data structures of dweb</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2021-02-20T06:32:04.000Z" itemprop="datePublished">2021-02-20</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2021/02/20/design/" class="title">Rethinking the protocol</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2021-02-20T06:32:04.000Z" itemprop="datePublished">2021-02-20</time>
+              </p>
+            </div>
+          </li>
+          
+      </ul>
+    </div>
+  </div>
+  
+
+    
+  </div>
+</aside>
+
+  
+  
+<main class="main" role="main">
+  <div class="content">
+  <article id="post-introduction" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Dweb in a nutshell
+    </h1>
+  
+
+      
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2021/02/20/introduction/" class="article-date">
+	  <time datetime="2021-02-20T06:32:04.000Z" itemprop="datePublished">2021-02-20</time>
+	</a>
+</span>
+        
+        
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link-link" href="/tags/dweb/" rel="tag">dweb</a>
+  </span>
+
+
+        
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/02/20/introduction/#comments" class="article-comment-link">Comments</a></span>
+        
+	
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 745(words)</span>
+	
+	
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 4(minutes)</span>
+	
+
+      </div>
+    </div>
+    <div class="article-entry marked-body" itemprop="articleBody">
+      
+        <blockquote>
+<p>simple intro written for some of my readers</p>
+</blockquote>
+<blockquote>
+<p>Dweb is a proper noun that means ‘decentralized web’.</p>
+</blockquote>
+<p>The current internet structure is centralized, which means the corporations run computing centers with large upload bandwidth and people generally get data only from these data centers. The direct consequences are that the privacy of users is constantly being robbed and monetized, as the global capitalism develops, which is caused by the centralization of influence since some application or website is used by plenty of users. They can use the influence to do anything, including putting ads anywhere, getting revenue as a middle man, and even affect the politics. The centralized model also makes it easy for censorship. For example the GFW can just use a blacklist to block any unwanted entities. In terms of technical efficiency, the competition and protocol barriers between companies block any possibility of reusing codebase and data which will happen in dweb. Most sites are similar at some extent, for example, video sites, social media and instant messengers, which all have the same content hosted multiple times and similar technical architecture. The three categories can have a common template that other new sites can be created from, which is the key of reducing the cost of introducing new competitors that benefit users, which is possible on dweb.</p>
+<p><img src="/images/centr.drawio.svg"></p>
+<p>The dweb connects users instead of companies, which reduces the intermediaries such as an instant messenger between users. If people originally download content from the data centers, then now they download from each other, by uploading to others. Such model doesn’t produce unnecessarily large monopolies. If the traditional web is considered to have reduced the intermediaries between customers and producers, from like three agents to one platform, the dweb directly reduces it to zero, by <strong>user autonomy</strong> with rules executed by the algorithm.  The count of users is far greater than the servers corporations have, which means we have more IPs. GFW doesn’t want to interfere the international commerce, so it tries to distinguish the ‘illegal’ traffic from ‘legal’ traffic. However, we will always have more developers than GFW, so we can disguise the traffic to make it look more ‘legal’.</p>
+<p><img src="/images/decentr.drawio.svg"></p>
+<p>There are many types of dweb applications, as shown (classified by purpose), including the most well-known one, blockchain which has the ability to reach a consensus over the network. Even blockchain itself still relies on other types of decentralized networks which are hence crucial and fundamental, for example, the anonymity-oriented crypto-currency Monero needs I2P for transport-level anonymity, and Filecoin, a market that trades the service of storing and transmitting data, heavily depends on a decent data exchange protocol.</p>
+<p><img src="/images/dwebtype.drawio.svg"></p>
+<blockquote>
+<p>Content-addressing: Addressing content by its hash, instead of location（以哈希编址，而非存储位置）</p>
+</blockquote>
+<p>The history of dweb dates back to 2000, when Gnutella was firstly introduced. Then in 2001, the concept of content-addressing was implemented by BitTorrent, which developed DHT algorithm four years later. These are the fundamental algorithms for the later networks which have more innovations in other aspects. The latest technologies in this field are IPFS and ZeroNet, respectively featuring modularity and diverse media, which is also where the idea of The Network comes from. However, in my opinion, they all have failed to replace the centralized web.</p>
+<p><img src="/images/fc.drawio.svg"></p>
+<p>Imagine you are going to deploy a server for your personal blog, and you are looking for such service with Google. Firstly, you are motivated enough to use Google and take some minutes to find a provider and take another tens of minutes to register an account and make location choices. Secondly, you won’t reach the optimal choice, as the search results are biased and you don’t have the effort to check every provider. This is what is happening right now. FileCoin, as one of the diverse applications of dweb, solves this problem by protocol and automation. Each service provider will publish an record on Filecoin blockchain, by which you will find them. You buy some coins and ask it to serve your website, which will automatically look up the records and send them your data to multiple service providers. Filecoin will regularly ask the providers to prove they are serving your files, through some algorithm, and they pay them. Visitors of your blog will view it on Filecoin, which Filecoin also ensures to be as fast as possible by automatically checking the speed of candidates and selecting the optimal.</p>
+
+      
+    </div>
+    <div class="article-footer">
+      <blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-license">
+      Copyleft: You get no profit from copying this article
+    </li>
+  </ul>
+</blockquote>
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/planetoryd" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/avatar.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/planetoryd" target="_blank"><span class="text-dark">Planetoryd</span><small class="ml-1x">Dweb developer</small></a></h3>
+        <div>A high school student devoted to dweb</div>
+      </div>
+    </figure>
+  </div>
+</div>
+
+
+    </div>
+  </article>
+  
+    
+  <section id="comments">
+  	
+  </section>
+
+
+  
+</div>
+
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    <li class="prev">
+      <a href="/2021/02/20/harmony/" title="Harmony of dweb"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;Newer</span></a>
+    </li>
+    
+    
+    <li class="next">
+      <a href="/2021/02/20/note-taking/" title="对于做笔记方式的思考"><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+  </ul>
+  
+  
+  
+  <div class="bar-right">
+    
+  </div>
+  </div>
+</nav>
+  
+
+
+</main>
+
+  <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+	
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/planetoryd" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
+        
+    </ul>
+
+    	
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 38.1k(words)</span>
+	
+
+    <div class="copyright">
+    	
+    </div>
+</footer>
+  <script src="//cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script>
+window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+
+<script src="/js/plugin.min.js"></script>
+
+
+<script src="/js/application.js"></script>
+
+
+    <script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+
+
+
+
+   
+
+
+
+
+   
+
+
+
+
+
+
+</body>
+</html>
