@@ -4,7 +4,7 @@
   <url>
     <loc>https://planetoryd.github.io/2021/02/20/random/</loc>
     
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     
   </url>
   
@@ -93,20 +93,6 @@
   </url>
   
   <url>
-    <loc>https://planetoryd.github.io/index.html</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://planetoryd.github.io/404.html</loc>
-    
-    <lastmod>2021-02-20</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://planetoryd.github.io/about/index.html</loc>
     
     <lastmod>2021-02-20</lastmod>
@@ -121,7 +107,14 @@
   </url>
   
   <url>
-    <loc>https://planetoryd.github.io/tags/index.html</loc>
+    <loc>https://planetoryd.github.io/index.html</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://planetoryd.github.io/404.html</loc>
     
     <lastmod>2021-02-20</lastmod>
     
@@ -129,6 +122,13 @@
   
   <url>
     <loc>https://planetoryd.github.io/repository/index.html</loc>
+    
+    <lastmod>2021-02-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://planetoryd.github.io/tags/index.html</loc>
     
     <lastmod>2021-02-20</lastmod>
     
@@ -158,14 +158,14 @@
   </url>
   
   <url>
-    <loc>https://planetoryd.github.io/tags/censorship/</loc>
+    <loc>https://planetoryd.github.io/tags/dweb/</loc>
     <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://planetoryd.github.io/tags/dweb/</loc>
+    <loc>https://planetoryd.github.io/tags/censorship/</loc>
     <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
